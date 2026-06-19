@@ -75,9 +75,19 @@ print(lenguajes)
 print(f"El tipo de dato es: {type(lenguajes)}")
 
 lista_duplicada = [1,2,3,4,1,6,1]
+print("sin set")
+print(lista_duplicada)
+print("con set")
 print(set(lista_duplicada))#aqui se hace eso que se menciona arriba 
 
 
+lista_unicos = set(lista_duplicada)
+
+print(lista_unicos)
+
+lista_unicos.add(5)
+print("agregamos con add un 5")
+print(lista_unicos)
 
 
 
