@@ -1,8 +1,89 @@
-animales = {
-    perros:2,
-    gatos:4,
-    loros:18,
-    anacletos:0
-}
+print("Estructuras de datos en Python")
+print("-----------------------------\n")
 
-print(animales(loros))
+
+
+#Listas acepta cambios !!!
+print("Listas (list)")
+print("-------------")
+#              0      1     2    3
+fullstack = ["HTML","CSS","JS","PY"]
+print(fullstack)
+
+print(f"El tipo de dato es:{type(fullstack)}")#clase lista
+
+#Acceder a elemento
+print(fullstack [3]) 
+print(fullstack [0])
+print(fullstack [-1])
+#Agregar elemento a lista
+print("-------------")
+fullstack.append("base de datos")
+print(fullstack)
+#Cambiar valor
+print("-------------")
+fullstack[0] = "HTML cambio valor"
+print(fullstack)
+#Lista de lisats
+print("-------------")
+
+simulnado_matiz = [
+[1,2,3],
+[4,5,6]
+
+]
+print(simulnado_matiz)
+
+print("-------------")
+print("Cadena de texto alvaro")
+# una cadena de texto se comporta como una lista 
+cadenadenatexto = "alvaro"
+print(type(cadenadenatexto),cadenadenatexto[3])
+print("-------------")
+
+#----------------------------------------------------------------------
+
+print("Tuplas")
+#Tuplas no acepta cambios !!! 
+titulo = "Tuplas (tuplas)"
+print(titulo)
+print(len(titulo) * "-")# len ecuenta elementos por ejemplo titulo tiene 15 si le quetamos el * "-"
+
+
+curso = ("Bootscamp", "Fullstack","Python","2026")
+
+print(curso)
+
+print(f"El tipo de dato es: {type(curso)}") # type es la clase y esta es tuple 
+
+
+
+
+
+print("-------------")
+print("Set")
+
+#Set no permite valores repetidos !!!
+titulo = "Set (set)" 
+print(titulo)
+print("-" * len(titulo))
+
+lenguajes = {"Python","JavaScript","PHP","Elixir","Java"}#si ponemos otrp java solo imprime 1 aun que tenga 2 o más
+
+print(lenguajes)
+
+print(f"El tipo de dato es: {type(lenguajes)}")
+
+lista_duplicada = [1,2,3,4,1,6,1]
+print(set(lista_duplicada))#aqui se hace eso que se menciona arriba 
+
+
+
+
+
+
+
+
+
+
+#Diccionarios
