@@ -25,4 +25,3 @@
 - [X] Actualizar remoto
 - [X] Hacer `merge` del PR
 - [X] Actualizar repo localGI
-PRUEBA DE COMMIT
