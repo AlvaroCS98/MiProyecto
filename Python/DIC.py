@@ -97,3 +97,47 @@ print(lista_unicos)
 
 
 #Diccionarios
+
+estudiante = {
+    #clave       valor
+    "nombre" : "Álvaro",
+    "edad" : 28, 
+    "curos" : "Python"
+}
+
+print(estudiante)
+print( f"El tipo de dato es :{type(estudiante)}")
+
+
+#Lista de diccionariso 
+dict1 = {
+    #clave       valor
+    "nombre" : "Álvaro",
+    "edad" : 28, 
+    "curos" : "Python"
+}
+dict2 = {
+    #clave       valor
+    "nombre" : "Juan",
+    "edad" : 30, 
+    "curos" : "Python"
+}
+data = [dict1, dict2]
+
+data_json = {
+    "status" : "ok",
+    "mesnaje" : "lista de estudaintes",
+    "data" : [data]
+ }
+
+print(data_json)
+
+#Forma 1 : Llamado directamente la clave
+print("llamando la clave")
+#      doble                             simple simple     doble
+print(f"El nombre del estudiante es:{estudiante['nombre']}")
+
+
+#Esto es para que si no hay uno sale el segundo con get
+#                                                     1              2                 si no esta el primero pasa al segundo 
+print(f"El nombre del estudiante es:{estudiante.get('apellido','No registrado')}")
