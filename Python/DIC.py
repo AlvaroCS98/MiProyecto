@@ -97,3 +97,24 @@ print(lista_unicos)
 
 
 #Diccionarios
+
+# v1.0.0
+"""
+numero1 = int(input("Ingrese el primer numero ENTERO :"))
+numero2 = int(input("Ingrese el segundo numero ENTERO :"))
+
+suma = numero1 + numero2
+
+print(f"La suma de los numeos enteros uno y dos es :{suma}")
+"""
+# v1.0.1
+
+numero1 = input("Ingrese el primer numero ENTERO :")
+numero2 = input("Ingrese el segundo numero ENTERO :")
+if numero1.isdigit() and numero2.isdigit() :
+    numero1 = int(numero1)
+    numero2 = int(numero2)
+    suma = numero1 + numero2
+    print(f"La suma de los numeos enteros uno y dos es :{suma}")
+else:
+    print("Ingrese solo numeros Enteros!!!")
